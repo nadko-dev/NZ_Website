@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadir Zulfugarli</title>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+
+    <!-- CSS file -->
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <!-- Header Section -->
+
+    <section id="header">
+
+        <!-- Navigation Bar -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a href="#" class="navbar-brand NZlogo">Nadir Zulfugarli</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="navbar-toggler-icon""></span>
+        </button>
+        <div class=" collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#sec2">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sec3">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sec4">Contact</a></li>
+                    </ul>
+                    </div>
+        </nav>
+
+        <!-- Teaser Section -->
+
+        <div class="container-fluid header">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>I'm Nadir</h1>
+                    <p>I am a web developer with Master's Degree in IT. I have created this simple website from scratch to demonstrate my portfolio and skills</p>
+                </div>
+
+                <div class="col-md-6">
+                    <center><img src="./assets/images/nadir.png" alt="myimage" class="myimage"></center>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What I offer -->
+
+    <section>
+        <div class="container-fluid section1 light-sec-bg">
+            <h2>What I offer</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <center><img src="./assets/images/web.png" alt="web_development"></center>
+                    <p>Building your website</p>
+                </div>
+
+                <div class="col-md-4">
+                    <center><img src="./assets/images/pm.png" alt="project_management"></center>
+                    <p>Managing your project</p>
+
+                </div>
+                <div class="col-md-4">
+                    <center><img src="./assets/images/cms.png" alt="cms_author"></center>
+                    <p>Managing your content</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume -->
+
+    <section id="sec2">
+        <div class="container-fluid section2 dark-sec-bg">
+            <h2>Are you a recruiter?</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Download my resume</p>
+                    <center><a href="./assets/files/Resume.pdf" target="_blank"><button class="btn">Resume</button></a>
+                    </center>
+                </div>
+
+                <div class="col-md-6">
+                    <p>Contact me</p>
+                    <center><a href="#sec4"><button class="btn">Contact</button></a></center>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio  -->
+
+    <section id="sec3">
+        <div class="container-fluid section3 light-sec-bg">
+            <h2>My portfolio</h2>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/images/soon.png" class="d-block w-100" alt="dogiland">
+                        <div class="carousel-caption d-none d-md-block">
+                            <a href="#"><h5>Dogiland</h5></a>
+                            <p>Hotel for dogs</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/soon.png" class="d-block w-100" alt="coming_soon">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>More exciting projects...</h5>
+                            <p>More projects are on the way</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/soon.png" class="d-block w-100" alt="coming_soon">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>More exciting projects...</h5>
+                            <p>More projects are on the way</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section id="sec4">
+        <div class="container-fluid section4 dark-sec-bg">
+            <h2>Contact me</h2>
+            <form action="https://formsubmit.co/nadir.macbook@gmail.com" method="POST">
+                <div class="row g-3">
+
+                    <div class="col-md-6">
+                        <label for="firstName" class="form-label"></label>
+                        <input type="text" class="form-control" name="name" id="firstName" placeholder="Your name"
+                            required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="Email" class="form-label"></label>
+                        <input type="email" class="form-control" name="email" placeholder="Your email address"
+                            id="Email" required>
+                    </div>
+                </div>
+                <div class="row g-3">
+                    <div class="col-sm-12">
+                        <label for="Message" class="form-label"></label>
+                        <textarea class="form-control" name="comments, questions" id="Message" rows="6"
+                            placeholder="Type your message here" required></textarea>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-9"></div>
+                    <div class="col-md-3">
+                        <button class="btn" type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="container-fluid footer dark-sec-bg">
+        <a href="https://www.linkedin.com/in/nadir-zulfugarli-373092123/" target="_blank">Linkedin</a>
+        <a href="https://github.com/nadko-dev" target="_blank">Github</a>
+        <p>© 2023 All rights reserved. Nadir Zulfugarli</p>
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
